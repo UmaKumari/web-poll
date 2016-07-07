@@ -1,0 +1,183 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 14, 2015, 1:04:46 PM
+    Author     : uma
+*/
+*, html {
+    margin:0px;
+    padding:0px; 
+
+
+}
+
+#container{
+    background-image: url(images/stadium.jpg); 
+    background-size: 100%;
+    margin:0px;
+    padding:0px;
+    width: 100%;
+    font-family:Tahoma, Geneva, sans-serif ;
+
+}
+
+#header {
+    background-color:black ;
+    color:white;
+    height:80px;
+    text-align:center;
+    width:100%;
+    border-bottom: 2px solid #FFFFFF;
+    margin-bottom: 3%;
+
+}
+
+#header a{
+
+    color:white;
+        padding-top:0%;
+    padding-bottom:8%;
+
+}
+
+
+.logo{
+
+    width:175px;
+    height:70px;
+    margin: 0px;
+    padding-top: 0.5%;
+    float:center;
+    padding-left: 8%;
+    padding-bottom: 0.5%;
+
+}
+
+
+
+.socialmedia {
+    width:45px;
+    height:40px;
+    margin: 0px;
+    padding-top: 1.5%;
+    float:right;
+    padding-right: 1%;
+
+
+} 
+
+#header p {
+
+    float: left;
+    padding-left: 1%;
+    padding-top: 2.5%; 
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+}
+
+#middle {
+    height:1289px;
+    width:550px;
+    margin-bottom: 0.5%;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #339966; 
+    color:#000000 ;   
+    border: 2px solid #000000;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    float:left;
+
+}
+
+
+
+#leftbar {
+
+    height:1289px;
+    margin-left: 20px;
+    width:300px;
+    margin-bottom: 0.5%;
+    background-color: #339966; 
+    color:#000000 ;   
+    border: 2px solid #000000;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    float:left;}
+
+#top {
+    width:100%;
+    height:40%;
+    background-color: white;
+    z-index: 2;
+}
+
+#bottom {
+    width:86.5%;
+    height:42.9%;
+    background-color: white;
+    z-index: 4;
+    padding: 20px;
+
+}
+
+#title1 {
+    width:100%;
+    height:80px;
+    background-color: black;
+    z-index: 1;
+}
+
+#title2 {
+    width:94%;
+    height:80px;
+    background-color: black;
+    z-index: 3;
+    color:white;
+    padding:10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#rightbar {
+
+    height:1289px;
+    width:300px; 
+    margin-bottom: 0.5%;
+    background-color: #339966; 
+    color:#000000 ;   
+    border: 2px solid #000000;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    float:left;
+}
+
+#footer {
+    background: #000033;
+    color:white;
+    clear:both;
+    height:30%;
+    width:100%;
+    padding-left: 70px;
+    padding-top: 8px;
+    font-size: 13px;
+}
+
+.poll{
+    padding: 20px;
+    border: 0px solid #ccc;
+}
+
+.poll-question{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.poll-options{
+    margin-bottom: 20px;
+}
+
+.poll-option{
+    margin-bottom: 10px;
+}
+
